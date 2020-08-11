@@ -15,15 +15,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.appcompat.widget.Toolbar
-            android:layout_width="54dp"
-            android:layout_height="66dp"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:popupTheme="@style/TextAppearance.AppCompat.Widget.ActionBar.Menu" />
-    </androidx.constraintlayout.widget.ConstraintLayout>
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bottomSection"
@@ -108,16 +100,22 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <ImageView
-        android:id="@+id/imgPhone"
-        android:layout_width="254dp"
-        android:layout_height="455dp"
-        android:layout_weight="1"
-        android:translationZ="10dp"
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/topSection"
-        app:srcCompat="@drawable/phone" />
+        app:layout_constraintTop_toTopOf="@+id/topSection">
+
+        <ImageView
+            android:id="@+id/imgPhone"
+            android:layout_width="254dp"
+            android:layout_height="455dp"
+            android:layout_weight="1"
+            android:translationZ="10dp"
+            app:srcCompat="@drawable/phone" />
+    </FrameLayout>
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
