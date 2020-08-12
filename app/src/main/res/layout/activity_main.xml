@@ -15,7 +15,16 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="56dp"
+            android:layout_height="46dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/abc_vector_test" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bottomSection"
@@ -100,22 +109,15 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <FrameLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+    <ImageView
+        android:id="@+id/imgPhone"
+        android:layout_width="254dp"
+        android:layout_height="455dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/topSection">
-
-        <ImageView
-            android:id="@+id/imgPhone"
-            android:layout_width="254dp"
-            android:layout_height="455dp"
-            android:layout_weight="1"
-            android:translationZ="10dp"
-            app:srcCompat="@drawable/phone" />
-    </FrameLayout>
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/phone"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
