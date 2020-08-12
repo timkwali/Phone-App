@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <!-- TOP SECTION -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/topSection"
         android:layout_width="match_parent"
@@ -17,6 +18,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <!-- BACK ARROW -->
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="56dp"
@@ -26,6 +28,8 @@
             app:srcCompat="@drawable/abc_vector_test" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+
+    <!-- BOTTOM SECTION -->
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/bottomSection"
         android:layout_width="match_parent"
@@ -38,6 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/topSection"
         app:layout_constraintVertical_bias="0.0">
 
+        <!-- BOTTOM BUTTONS -->
         <LinearLayout
             android:id="@+id/linearLayout2"
             android:layout_width="match_parent"
@@ -66,6 +71,7 @@
 
         </LinearLayout>
 
+        <!-- BOTTOM SECTION TEXTS -->
         <TextView
             android:id="@+id/tvWelcome"
             android:layout_width="wrap_content"
@@ -109,6 +115,7 @@
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
+    <!-- PHONE IMAGE -->
     <ImageView
         android:id="@+id/imgPhone"
         android:layout_width="254dp"
@@ -118,6 +125,4 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/phone"/>
-
-
 </androidx.constraintlayout.widget.ConstraintLayout>
