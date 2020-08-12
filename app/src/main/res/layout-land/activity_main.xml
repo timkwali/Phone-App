@@ -52,7 +52,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/colorPrimary"
-                android:text="sign in"
+                android:text="@string/signIn"
                 android:textColor="@color/white"
                 android:textSize="18dp" />
 
@@ -61,7 +61,7 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:background="@color/colorPrimary"
-                android:text="sign up"
+                android:text="@string/signUp"
                 android:textColor="@color/white"
                 android:textSize="18dp" />
 
@@ -72,7 +72,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="12dp"
-            android:text="Welcome to app"
+            android:text="@string/welcome"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:translationZ="10dp"
@@ -86,7 +86,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="16dp"
-            android:text="Try Acme free for 30 days"
+            android:text="@string/tryAcme"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/linearLayout"
@@ -98,7 +98,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="4dp"
-            android:text="3,366 businesses signed up last week."
+            android:text="@string/businesses"
             android:textColor="@color/white"
             android:textSize="18sp"
             app:layout_constraintBottom_toTopOf="@+id/tvMessage2"

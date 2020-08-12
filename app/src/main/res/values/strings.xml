@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Phone App</string>
+    <string name="welcome">Welcome to app</string>
+    <string name="businesses">3,366 businesses signed up last week.</string>
+    <string name="tryAcme">Try Acme free for 30 days</string>
+    <string name="signIn">Sign In</string>
+    <string name="signUp">Sign Up</string>
 </resources>
